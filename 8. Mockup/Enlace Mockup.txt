@@ -1,0 +1,4 @@
+Enlace al Mockup del proyecto: https://ai.studio/apps/fbd68f87-8480-42d1-8ca1-2bee3cdaa7a4
+
+-Usuario de prueba: admin@corhuila.edu.co
+-Contraseña: admin123

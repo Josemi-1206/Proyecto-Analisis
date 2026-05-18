@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="SJoCfp6T45HFE_lwU6Z0">
+    <mxGraphModel dx="934" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" value="CU-03: Gestión de Donantes" vertex="1">
+          <mxGeometry height="30" width="400" x="200" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" parent="1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];shape=mxgraph.flowchart.start_2;fillColor=none;strokeColor=#555555;dashed=1;dashPattern=8 4;fontSize=12;verticalAlign=top;align=center;whiteSpace=wrap;rounded=1;" value="Sistema de Gestión – Módulo de Donantes" vertex="1">
+          <mxGeometry height="460" width="520" x="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_rf07" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;fontStyle=1;" value="Registrar donante" vertex="1">
+          <mxGeometry height="52" width="200" x="310" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_rf08" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;fontStyle=1;" value="Registrar donación" vertex="1">
+          <mxGeometry height="52" width="200" x="310" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_consultar" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;fontStyle=1;" value="Consultar historial de donante" vertex="1">
+          <mxGeometry height="52" width="200" x="310" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_editar" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;fontStyle=1;" value="Editar datos de donante" vertex="1">
+          <mxGeometry height="52" width="200" x="310" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_duplicado" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="Validar duplicado" vertex="1">
+          <mxGeometry height="44" width="140" x="590" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_asociar" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="Asociar a donante existente" vertex="1">
+          <mxGeometry height="44" width="140" x="590" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" style="edgeStyle=none;" target="uc_rf07">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="270.66666666666663" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" style="edgeStyle=none;" target="uc_rf08">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="276.72727272727275" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" style="edgeStyle=none;" target="uc_consultar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="282.78787878787875" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" style="edgeStyle=none;" target="uc_editar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="288.8484848484849" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc1" edge="1" parent="1" source="uc_rf07" style="edgeStyle=none;dashed=1;endArrow=open;endFill=0;" target="uc_duplicado" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc2" edge="1" parent="1" source="uc_rf08" style="edgeStyle=none;dashed=1;endArrow=open;endFill=0;" target="uc_asociar" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ext1" edge="1" parent="1" source="uc_editar" style="edgeStyle=none;dashed=1;endArrow=open;endFill=0;" target="uc_consultar" value="&lt;&lt;extend&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8k_D4vG3N9zZw1uF5Q88-12" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="70" y="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

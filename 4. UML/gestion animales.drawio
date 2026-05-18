@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="SJoCfp6T45HFE_lwU6Z0">
+    <mxGraphModel dx="542" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" value="CU-01: Gestión de Animales" vertex="1">
+          <mxGeometry height="30" width="400" x="200" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" parent="1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];shape=mxgraph.flowchart.start_2;fillColor=none;strokeColor=#555555;dashed=1;dashPattern=8 4;fontSize=12;verticalAlign=top;align=center;whiteSpace=wrap;rounded=1;" value="Sistema de Gestión – Módulo de Animales" vertex="1">
+          <mxGeometry height="530" width="520" x="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_rf01" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" value="Registrar animal" vertex="1">
+          <mxGeometry height="50" width="200" x="320" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_rf02" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" value="Buscar / Consultar animal" vertex="1">
+          <mxGeometry height="50" width="200" x="320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_rf03" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" value="Actualizar estado del animal" vertex="1">
+          <mxGeometry height="50" width="200" x="320" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_rf04" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" value="Registrar historial médico" vertex="1">
+          <mxGeometry height="50" width="200" x="320" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_foto" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="Subir fotografía" vertex="1">
+          <mxGeometry height="44" width="140" x="590" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_validar" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="Validar campos obligatorios" vertex="1">
+          <mxGeometry height="44" width="140" x="590" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" value="Generar ID único" vertex="1">
+          <mxGeometry height="44" width="140" x="590" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_perfil" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;fontStyle=1;" value="Ver perfil completo" vertex="1">
+          <mxGeometry height="50" width="200" x="320" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" style="edgeStyle=none;" target="uc_rf01">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="139.11764705882354" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" style="edgeStyle=none;" target="uc_rf02">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="145" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" style="edgeStyle=none;" target="uc_rf03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="150.88235294117646" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" style="edgeStyle=none;" target="uc_rf03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="348.52941176470586" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" style="edgeStyle=none;" target="uc_rf04">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="354.4117647058823" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" style="edgeStyle=none;" target="uc_rf02">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="512.0588235294117" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" style="edgeStyle=none;" target="uc_perfil">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="530.2941176470588" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc1" edge="1" parent="1" source="uc_rf01" style="edgeStyle=none;dashed=1;endArrow=open;endFill=0;" target="uc_foto" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc2" edge="1" parent="1" source="uc_rf01" style="edgeStyle=none;dashed=1;endArrow=open;endFill=0;" target="uc_validar" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc3" edge="1" parent="1" source="uc_rf03" style="edgeStyle=none;dashed=1;endArrow=open;endFill=0;" target="uc_id" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ext1" edge="1" parent="1" source="uc_perfil" style="edgeStyle=none;dashed=1;endArrow=open;endFill=0;" target="uc_rf02" value="&lt;&lt;extend&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8k_D4vG3N9zZw1uF5Q88-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;span style=&quot;text-align: start; font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif;&quot;&gt;Administrador&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="60" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8k_D4vG3N9zZw1uF5Q88-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;span style=&quot;text-align: start; font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif;&quot;&gt;Veterinario&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="8k_D4vG3N9zZw1uF5Q88-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;span style=&quot;text-align: start; font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif;&quot;&gt;Voluntario&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="60" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
